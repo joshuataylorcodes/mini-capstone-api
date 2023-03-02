@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get "/products/:id" => "products#show"
 
-  post "/product" => "products#create"
+  post "/products" => "products#create"
 end
