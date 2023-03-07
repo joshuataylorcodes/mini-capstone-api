@@ -30,8 +30,8 @@ class ProductsController < ApplicationController
     if @product.valid?
       render :show
     else
-      render json: {errors: @product.errors.full_messages}, 
-      status: :unprocessable_entity
+      render json: { errors: @product.errors.full_messages },
+             status: :unprocessable_entity
     end
   end
 
@@ -47,10 +47,9 @@ class ProductsController < ApplicationController
     if @product.valid?
       render :show
     else
-      render json: {errors: @product.errors.full_messages}, 
-      status: :unprocessable_entity
+      render json: { errors: @product.errors.full_messages },
+             status: :unprocessable_entity
     end
-    render :show
   end
 
   def destroy
