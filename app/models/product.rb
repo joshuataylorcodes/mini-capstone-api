@@ -9,8 +9,8 @@ class Product < ApplicationRecord
   end
 
   # has_many :images
-  def url
-    Url.where(product_id: id)
+  def images
+    Image.where(product_id: id)
   end
 
   def is_discounted?
