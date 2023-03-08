@@ -1,7 +1,11 @@
 class Product < ApplicationRecord
-  validates :name, presence: true
-  validates :price, presence: true
-  validates :quantity, presence: true, numericality: { greater_then: 0 }
+  # validates :name, presence: true
+  # validates :price, presence: true
+  # validates :quantity, presence: true, numericality: { greater_then: 0 }
+
+  def supplier
+    Supplier.find_by(id: supplier_id)
+  end
 
   def is_discounted?
     x = false
