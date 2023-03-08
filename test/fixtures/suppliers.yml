@@ -3,9 +3,9 @@
 one:
   name: MyString
   email: MyString
-  Phone_number: MyString
+  phone_number: MyString
 
 two:
   name: MyString
   email: MyString
-  Phone_number: MyString
+  phone_number: MyString

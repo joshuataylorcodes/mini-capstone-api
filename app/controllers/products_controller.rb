@@ -11,12 +11,14 @@ class ProductsController < ApplicationController
 
   def create
     @product = Product.create(
+      supplier_id: params[:supplier_id],
       name: params[:name],
       price: params[:price],
       description: params[:description],
       quantity: params[:quantity],
     )
     if @product.valid?
+      Image.create(product_id: @product_id, url: params[:image_url])
       render :show
     else
       render json: { errors: @product.errors.full_messages },

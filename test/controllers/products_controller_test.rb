@@ -19,7 +19,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
   test "create" do
     assert_difference "Product.count", 1 do
-      post "/products.json", params: { name: "test product", price: 1, description: "test description", quantity: 1 }
+      post "/products.json", params: { supplier_id: Supplier.first.id, price: 1, description: "test description", quantity: 1 }
       data = JSON.parse(response.body)
       assert_response 200
       refute_nil data["id"]
