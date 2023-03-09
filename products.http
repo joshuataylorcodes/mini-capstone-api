@@ -1,5 +1,6 @@
 Get http://localhost:3000/products.json
 
+
 ###
 
 Get http://localhost:3000/products/1.json

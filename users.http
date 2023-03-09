@@ -18,3 +18,10 @@ Content-Type: application/json
 "email": "D.S@example.com",
 "password": "yoyo"
 }
+
+###
+
+Get http://localhost:3000/products.json
+Authorization: bearer
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg0NzkxMTd9.jmD49FydrPtwKVcQdv8JPgEzP2S07lShtAyfbQq7lUs
+Content-Type: application/json
