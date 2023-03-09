@@ -8,3 +8,13 @@ Content-Type: application/json
 "password_confirmation": "yoyo"
 
 }
+
+###
+
+Post http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+"email": "D.S@example.com",
+"password": "yoyo"
+}
