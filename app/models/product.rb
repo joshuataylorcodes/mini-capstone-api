@@ -13,6 +13,8 @@ class Product < ApplicationRecord
   #   Image.where(product_id: id)
   # end
 
+  has_many :orders
+
   def is_discounted?
     x = false
     if price <= 10
