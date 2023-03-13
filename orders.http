@@ -1,5 +1,5 @@
 Post http://localhost:3000/orders.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MTE0Mjd9.gTJLQ3p1q-Xl3BFAUxxzCA0TLNo6w7uGtV_1dW1EIzc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
 Content-Type: application/json
 
 {
@@ -10,9 +10,9 @@ Content-Type: application/json
 ###
 
 Get http://localhost:3000/orders/1.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MTI1NDV9.G96IUhUlfnqZnPo4-ZIPGxD7mgKgXoxHL8kdLoh6NcA
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
 
 ###
 
 Get http://localhost:3000/orders.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MTI1NDV9.G96IUhUlfnqZnPo4-ZIPGxD7mgKgXoxHL8kdLoh6NcA
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM

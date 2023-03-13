@@ -20,5 +20,5 @@
 # image.save
 
 User.create!([
-  { name: "Josh Taylor", email: "amanda@example.com", password: "password" },
+  { name: "Josh Taylor", email: "josh.t@example.com", password: "password" },
 ])

@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  before_action :authenticate_admin, except: [:index, :show]
+
   def show
     @product = Product.find_by(id: params[:id])
     render :show
@@ -22,8 +24,7 @@ class ProductsController < ApplicationController
       Image.create(product_id: @product_id, url: params[:image_url])
       render :show
     else
-      render json: { errors: @product.errors.full_messages },
-             status: :unprocessable_entity
+      render json: { errors: @product.errors.full_messages }, status: :unprocessable_entity
     end
   end
 
@@ -38,8 +39,7 @@ class ProductsController < ApplicationController
     if @product.valid?
       render :show
     else
-      render json: { errors: @product.errors.full_messages },
-             status: :unprocessable_entity
+      render json: { errors: @product.errors.full_messages }, railsstatus: :unprocessable_entity
     end
   end
 
