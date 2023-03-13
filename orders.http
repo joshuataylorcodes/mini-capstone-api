@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ###
 
-Get http://localhost:3000/orders/2.json
+Get http://localhost:3000/orders/1.json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MTI1NDV9.G96IUhUlfnqZnPo4-ZIPGxD7mgKgXoxHL8kdLoh6NcA
 
 ###
