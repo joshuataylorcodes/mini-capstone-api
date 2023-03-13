@@ -1,8 +1,8 @@
 Post http://localhost:3000/orders.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MTE0Mjd9.gTJLQ3p1q-Xl3BFAUxxzCA0TLNo6w7uGtV_1dW1EIzc
 Content-Type: application/json
 
 {
-"user_id": 1,
 "product_id": 1,
 "quantity": 1,
 "subtotal": 15.00,
@@ -12,8 +12,8 @@ Content-Type: application/json
 
 ###
 
-Get http://localhost:3000/products/1.json
+Get http://localhost:3000/orders/1.json
 
 ###
 
-Get http://localhost:3000/products.json
+Get http://localhost:3000/orders.json

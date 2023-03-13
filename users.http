@@ -22,6 +22,6 @@ Content-Type: application/json
 ###
 
 Get http://localhost:3000/products.json
-Authorization: bearer
+Authorization: Bearer
 eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg0NzkxMTd9.jmD49FydrPtwKVcQdv8JPgEzP2S07lShtAyfbQq7lUs
 Content-Type: application/json
