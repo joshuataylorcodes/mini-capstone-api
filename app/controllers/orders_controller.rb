@@ -24,14 +24,12 @@ class OrdersController < ApplicationController
   end
 
   def show
-    @order = Order.find_by(id: params[:id])
+    @orders = current_user.orders.find_by(id: params[:id])
     render :show
   end
 
   def index
-    def index
-      @order = Order.all
-      render :index
-    end
+    @orders = current_user.orders
+    render :index
   end
 end
