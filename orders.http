@@ -1,5 +1,7 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+
 Post http://localhost:3000/orders.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
@@ -10,9 +12,9 @@ Content-Type: application/json
 ###
 
 Get http://localhost:3000/orders/1.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+Authorization: Bearer {{jwt}}
 
 ###
 
 Get http://localhost:3000/orders.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+Authorization: Bearer {{jwt}}

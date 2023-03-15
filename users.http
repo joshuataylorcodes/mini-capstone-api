@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+
 Post http://localhost:3000/users.json
 Content-Type: application/json
 
@@ -15,13 +17,13 @@ Post http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-"email": "D.S@example.com",
-"password": "yoyo"
+"email": "josh.t@example.com",
+"password": "password"
 }
 
 ###
 
 Get http://localhost:3000/products.json
-Authorization: Bearer
-eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg0NzkxMTd9.jmD49FydrPtwKVcQdv8JPgEzP2S07lShtAyfbQq7lUs
+Authorization: Bearer {{jwt}}
+
 Content-Type: application/json
