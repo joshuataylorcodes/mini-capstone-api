@@ -1,6 +1,6 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
 
-@jwt_admin = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Nzg4MjEwMDZ9.nZj3GJq0ZdMKZURGsVzd5rGqdAaX2V7NJUuqLuMS1a4
+@jwt_admin = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
 
 Get http://localhost:3000/products.json?category=Athletic
 

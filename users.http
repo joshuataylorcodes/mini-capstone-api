@@ -1,5 +1,4 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2Nzg4MjAwOTN9.9QWv0GfUejJ--ER38_D2v6AyU8XDCM_a6XR8-D6AWYM
-
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
 Post http://localhost:3000/users.json
 Content-Type: application/json
 
@@ -17,8 +16,8 @@ Post http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-"email": "josh.t@example.com",
-"password": "password"
+"email": "D.S@example.com",
+"password": "yoyo"
 }
 
 ###

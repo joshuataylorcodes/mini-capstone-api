@@ -1,0 +1,11 @@
+Post http://localhost:3000/carted_products.json
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
+
+{
+"user_id": 1,
+"product_id": 2,
+"quantity": 1,
+"status": "carted",
+"order_id": 1
+}
