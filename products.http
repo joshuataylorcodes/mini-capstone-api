@@ -2,12 +2,12 @@
 
 @jwt_admin = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2Nzg4MjEwMDZ9.nZj3GJq0ZdMKZURGsVzd5rGqdAaX2V7NJUuqLuMS1a4
 
-Get http://localhost:3000/products.json
+Get http://localhost:3000/products.json?category=Athletic
 
 
 ###
 
-Get http://localhost:3000/products/1.json
+Get http://localhost:3000/products/2.json
 
 ###
 
