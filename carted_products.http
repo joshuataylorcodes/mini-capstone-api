@@ -5,6 +5,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwM
 {
 "product_id": 2,
 "quantity": 1,
-"status": "carted",
-"order_id": 1
+"status": "carted"
 }
+
+###
+
+GET http://localhost:3000/carted_products.json
+Content-Type: application/json
+
+###
+Get http://localhost:3000/carted_products.json?status=carted
+Content-Type: application/json
