@@ -13,9 +13,8 @@ class CartedProductsController < ApplicationController
   def index
     @carted_products = CartedProduct.all
 
-    if params[:carted_product]
-      carted_product = CartedProduct.find_by(status: params[:carted_product])
-      @products = carted_product.products
+    if params[:status]
+      @carted_products = CartedProduct.where(status: "carted")
     end
 
     render :index
