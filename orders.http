@@ -1,12 +1,8 @@
-@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkxNjI1OTR9.77al3w8vVvBW1TZo0k94G_e5Dgu7mMXMSdwBPfaHVVs
 Post http://localhost:3000/orders.json
 Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
-{
-"product_id": 1,
-"quantity": 1
-}
 
 ###
 

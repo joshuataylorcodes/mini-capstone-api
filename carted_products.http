@@ -1,6 +1,6 @@
 Post http://localhost:3000/carted_products.json
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkwNzUwMjB9.ZV5zpX66kG5g0BxpW6KwQC8nPSMbGBg_Nep4rOFKRM8
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkxNjI1OTR9.77al3w8vVvBW1TZo0k94G_e5Dgu7mMXMSdwBPfaHVVs
 
 {
 "product_id": 2,
@@ -15,4 +15,10 @@ Content-Type: application/json
 
 ###
 Get http://localhost:3000/carted_products.json?status=carted
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkxNTgyMDV9.KfktUgW6AqLBw9Mm3Lpp2sMjXVV3LdZn7RDWa5USsS0
 Content-Type: application/json
+
+###
+
+Delete http://localhost:3000/carted_products/1.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzkxNTgyMDV9.KfktUgW6AqLBw9Mm3Lpp2sMjXVV3LdZn7RDWa5USsS0
